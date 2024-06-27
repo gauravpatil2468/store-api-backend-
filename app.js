@@ -15,7 +15,7 @@ app.use(json())
 expressAsyncErrors
 
 
-app.use('/api/v1/products',productsRouter)
+app.use('/products',productsRouter)
 
 app.use(notFound)
 app.use(errorHandlerMiddleware)
